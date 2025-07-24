@@ -12,4 +12,10 @@
     <PackageReference Include="HtmlAgilityPack" Version="1.12.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update=".env.example">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
