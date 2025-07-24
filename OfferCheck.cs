@@ -31,9 +31,7 @@ namespace GameDevJobNotifier
             }
             else
             {
-                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("The newest offer has been changed!");
-                Console.ForegroundColor = ConsoleColor.White;
                 File.WriteAllText("FirstOffer.txt", newFirstOffer);
                 return true;
             }
